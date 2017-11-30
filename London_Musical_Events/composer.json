@@ -1,0 +1,13 @@
+{
+    "name": "vendor/london-musical-events",
+    "description": "Description of project London_Musical_Events.",
+    "authors": [
+        {
+            "name": "Alexandar",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "laravel/laravel": "dev-master"
+    }
+}
