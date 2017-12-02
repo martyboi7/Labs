@@ -2,6 +2,7 @@
 
 // Login for the COMP Lab exercises
 // Using  MARIA.MILLER@sakilacustomer.org to test PHP code
+// Testing the Github Repository
 
 // PHP Validation
        
