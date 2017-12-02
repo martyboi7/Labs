@@ -14,6 +14,9 @@ and open the template in the editor.
         // put your code here
         echo("Hello World");
         // This is me testing the new coding platform
+        // Added another line of code to just check something
+        // I dont know why I cannot connect to my group GitHub 
+        // repository, but it is becoming really annoying.
         ?>
     </body>
 </html>
