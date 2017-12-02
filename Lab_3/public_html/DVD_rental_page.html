@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DVD Rentals Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <style>
+            body{
+                text-align: center;
+            }
+            div{
+                width: 200px;
+                margin: 0 auto;
+            }
+            select{
+                margin: 10px auto;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <h1>DVD Rentals</h1>
+        
+        <p>Please select to view the movies
+           <br> from our available categories:  
+        </p>
+        <form id="option" name="selection">
+            <select name="category" id="choosefilm" multiple>
+                
+            <option value="action">Action</option>
+            <option value="animation">Animation</option>
+            <option value="children">Children</option>
+            <option value="classics">Classics</option>
+            <option value="comedy">Comedy</option>
+            <option value="documentary">Documentary</option>
+            <option value="drama">Drama</option>
+            <option value="family">Family</option>
+            <option value="foreign">Foreign</option>
+            <option value="games">Games</option>
+            <option value="horror">Horror</option>
+            <option value="music">Music</option>
+            <option value="new">New</option>
+            <option value="scifi">Sci-Fi</option>
+            <option value="sports">Sports</option>
+            <option value="travel">Travel</option>
+            
+        </select>   
+        </form>    
+        <input type="submit" value="Select" id="dvdsubmit"
+            onclick="chosen()">
+        <br>
+        <br>
+        <label>Our Selection of Different Genres:</label>
+        <div>
+            
+        <table>
+            <tr>
+                <th>Genre</th>
+                <th>Number of Movies</th> 
+            </tr>
+            <tr>
+                <th>Action</th>
+                <th>64</th> 
+            </tr>
+            <tr>
+                <th>Animation</th>
+                <th>66</th> 
+            </tr>
+            <tr>
+                <th>Children</th>
+                <th>60</th> 
+            </tr>
+            <tr>
+                <th>Classics</th>
+                <th>57</th> 
+            </tr>
+            <tr>
+                <th>Comedy</th>
+                <th>58</th> 
+            </tr>
+            <tr>
+                <th>Documentary</th>
+                <th>68</th> 
+            </tr>
+            <tr>
+                <th>Drama</th>
+                <th>62</th> 
+            </tr>
+            <tr>
+                <th>Family</th>
+                <th>69</th> 
+            </tr>
+            <tr>
+                <th>Foreign</th>
+                <th>73</th> 
+            </tr>
+            <tr>
+                <th>Games</th>
+                <th>61</th> 
+            </tr>
+            <tr>
+                <th>Horror</th>
+                <th>56</th> 
+            </tr>
+            <tr>
+                <th>Music</th>
+                <th>51</th> 
+            </tr>
+            <tr>
+                <th>New</th>
+                <th>63</th> 
+            </tr>
+            <tr>
+                <th>Sci-Fi</th>
+                <th>61</th> 
+            </tr>
+            <tr>
+                <th>Sports</th>
+                <th>74</th> 
+            </tr>
+            <tr>
+                <th>Travel</th>
+                <th>57</th> 
+            </tr>
+        </table>
+    </div>
+        
+        <script src="dvdrentals.js">  
+        </script>
+    </body>
+</html>
