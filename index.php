@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
-        echo("Hello World")
+        echo("Hello World");
         // This is me testing the new coding platform
         ?>
     </body>
